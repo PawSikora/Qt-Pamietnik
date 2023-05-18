@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="aktualnyWpis">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>172</y>
+      <width>250</width>
+      <height>85</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tytul3">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>264</y>
+      <width>132</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nastepne wspomnienie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="poprzednie">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>320</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Poprzedni wpis</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tytul1">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>34</y>
+      <width>142</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Poprzednie wspomnienie</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="obraz">
+    <property name="geometry">
+     <rect>
+      <x>268</x>
+      <y>149</y>
+      <width>150</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>Brak zdjęcia</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tytul">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pamiętnik</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tytul4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>120</y>
+      <width>113</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Obraz wspomnienia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tytul2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>149</y>
+      <width>128</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aktualne wspomnienie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dodawanieWpisow">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>330</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodaj wpis</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="poprzedniWpis">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>57</y>
+      <width>250</width>
+      <height>85</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nastepne">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>350</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nastepny wpis</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wheelChecker">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="nastepnyWpis">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>287</y>
+      <width>250</width>
+      <height>85</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="usunWpis">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>200</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Usun wpis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wczytajKopie">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wczytaj kopie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zapiszKopie">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zapisz kopie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cofnijZmiany">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cofnij zmiany</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>533</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
