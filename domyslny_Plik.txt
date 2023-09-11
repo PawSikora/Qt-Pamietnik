@@ -1,2 +1,0 @@
-/d20:16 05-03-2022d/ /tHello theret/ /fHello there,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1f/ /k#0000ffk//oC:/Users/Paweł Sikora/Downloads/Hello-there.jpgo/
-/d20:17 05-03-2022d/ /tGeneral Kenobit/ /fGeneral Kenobi,9,-1,5,400,1,0,0,0,0,0,0,0,0,0,1f/ /k#008000k//oC:/Users/Paweł Sikora/Downloads/General Kenobi.jpgo/
