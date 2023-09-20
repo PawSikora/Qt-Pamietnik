@@ -8,7 +8,7 @@ separting user interface from data management, and using a middle layer to pass 
 - Possibility for adding images for every entry.
 - Save and load created entries
 
-# Overwiew
+# Overview
 Once you start application, you can choose to either create new entry or load existing saved state.
 
 ![StartingScreen](https://github.com/PawSikora/Qt-Pamietnik/assets/72358883/1b579226-93dd-4d42-8eb0-95bfd620db7f)
